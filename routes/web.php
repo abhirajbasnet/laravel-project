@@ -19,7 +19,21 @@ Route::get('/', function () {
 
 Route::get('/home', function () {
     return view('home');
-});
+})->middleware('IPCheck');
+
+Route::get('/about', function() {
+    return view ('about');
+})->middleware('IPCheck');;
+
+Route::get('/news', function () {
+    return view('news');
+})->middleware('IPCheck');;
+
+Route::get('/contact', function () {
+    return view('contact');
+})->middleware('IPCheck');;
 
 
+Auth::routes();
 
+Route::get('/home', 'HomeController@index')->name('home');
