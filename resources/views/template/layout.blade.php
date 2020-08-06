@@ -53,12 +53,11 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <aside class="control-sidebar control-sidebar-dark">
         <!-- Control sidebar content goes here -->
         <div class="p-3">
-            <h5>Title</h5>
-            <p>Sidebar content</p>
+           z
         </div>
     </aside>
     <!-- Main Footer -->
-    <footer class="page-footer font-small mdb-color lighten-3 pt-4 bg-black">
+    <footer class="page-footer font-small mdb-color lighten-3 pt-4 bg-black col-sm-12">
 
         <!-- Footer Elements -->
         <div class="container">

@@ -13,15 +13,15 @@
                 <i class="fas fa-home"></i>Home</a>
         </li>
         <li class="nav-item d-none d-sm-inline-block">
-            <a href="" class="nav-link">
+            <a href="{!! url('/about'); !!}" class="nav-link">
                 <i class="fas fa-bullhorn"></i>About</a>
         </li>
         <li class="nav-item d-none d-sm-inline-block">
-            <a href="" class="nav-link "> <i class="fa fa-newspaper"></i>News</a>
+            <a href="{!! url('/news'); !!}" class="nav-link "> <i class="fa fa-newspaper"></i>News</a>
 
         </li>
         <li class="nav-item d-none d-sm-inline-block">
-            <a href="" class="nav-link">
+            <a href="{!! url('/contact'); !!}" class="nav-link">
                 <i class="fas fa-address-book"></i>
                 Contact</a>
         </li>
@@ -78,7 +78,7 @@
                 <!-- Add icons to the links using the .nav-icon class
                      with font-awesome or any other icon font library -->
                 <li class="nav-item menu-open">
-                    <a href="#" class="nav-link active">
+                    <a href="" class="nav-link active">
                         <i class="nav-icon fas fa-tachometer-alt"></i>
                         <p>
                             Updates
@@ -87,32 +87,39 @@
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="#" class="nav-link active">
+                            <a href="{!! url('/cars'); !!}" class="nav-link active">
                                 <i class="fas fa-car nav-icon"></i>
 
                                 <p>Cars</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link active">
+                            <a href="{!! url('/driver'); !!}" class="nav-link active">
+                                <i class="fa fa-drivers-license-o"></i>
+
+                                <p>Driver</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="{!! url('/track'); !!}" class="nav-link active">
                                 <i class="fas fa-road nav-icon"></i>
                                 <p>Track</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link active">
+                            <a href="{!! url('/rent'); !!}" class="nav-link active">
                                 <i class="fas fa-key nav-icon"></i>
                                 <p>Rent Us</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link active">
+                            <a href="{!! url('/help'); !!}" class="nav-link active">
                                 <i class="fas fa-question-circle"></i>
                                 <p> Help</p>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link active">
+                            <a href="{!! url('/review'); !!}" class="nav-link active">
                                 <i class="fas fa-edit nav-icon"></i>
                                 <p>Review</p>
                             </a>

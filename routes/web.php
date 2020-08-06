@@ -19,20 +19,23 @@ Route::get('/', function () {
 
 Route::get('/home', function () {
     return view('home');
-})->middleware('IPCheck');
+});
 
 Route::get('/about', function() {
     return view ('about');
-})->middleware('IPCheck');;
+});;
 
 Route::get('/news', function () {
     return view('news');
-})->middleware('IPCheck');;
+});;
 
 Route::get('/contact', function () {
     return view('contact');
-})->middleware('IPCheck');;
+});;
 
+Route::get('/driver', function () {
+    return view('driver');
+});
 
 Auth::routes();
 
